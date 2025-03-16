@@ -1,12 +1,38 @@
-# React + Vite
+# Simple Chat Application
+This is a **Real-Time Chat Application** built using **React, Node.js, Express, and Socket.io**. I developed this simple chat application as a project for freshers organized by **Tinkerer's lab at IITH** to learn fundamentals of Web Development.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Real-time messaging using Socket.io
+- Interactive, minimal and responsive UI
+- Lightweight backend with Express.js
 
-Currently, two official plugins are available:
+## Technologies Used
+- ### Frontend:  
+  - React.js
+  - React Router
+  - HTML, CSS
+- ### Backend:
+  - Node.js
+  - Express.js
+  - Socket.io
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup
+  - ### Clone the repository
+      -git clone https://github.com/AdisheshBalaji/Local-Chat-App.git
+      - cd Local-Chat-App
+  - ### Backend Setup
+      - Navigate to backend and run
+          -npm install
+          -node server.js
+  - ### Frontend Setup
+      - Navigate to frontend and run
+          -npm install
+          -npm run dev
+
+## Working on
+  - Integrating firebase to save the chats when refreshed
+  - Saving users in a database
+  - Adding the option of DMs (Direct Messages)
+  
