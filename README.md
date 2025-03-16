@@ -19,17 +19,28 @@ This is a **Real-Time Chat Application** built using **React, Node.js, Express, 
 
 
 ## Installation & Setup
-  - ### Clone the repository
-      -git clone https://github.com/AdisheshBalaji/Local-Chat-App.git
-      - cd Local-Chat-App
-  - ### Backend Setup
-      - Navigate to backend and run
-          -npm install
-          -node server.js
-  - ### Frontend Setup
-      - Navigate to frontend and run
-          -npm install
-          -npm run dev
+
+### Clone the repository
+```sh
+git clone https://github.com/AdisheshBalaji/Local-Chat-App.git
+cd Local-Chat-App
+```
+
+### Backend Setup
+Navigate to the `backend` directory and run:
+```sh
+cd backend
+npm install
+node server.js
+```
+
+### Frontend Setup
+Navigate to the `frontend` directory and run:
+```sh
+cd frontend
+npm install
+npm run dev
+```
 
 ## Working on
   - Integrating firebase to save the chats when refreshed
